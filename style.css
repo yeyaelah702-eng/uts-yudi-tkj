@@ -1,0 +1,45 @@
+/* Aturan umum */
+p {
+    color: blue;/* paragraf berwarna biru */
+}
+
+/* Heading H1 rata tengah */
+h1 {
+    color: red;
+    text-align: center;
+}
+
+/* Gambar Profil */
+img {
+    display: block;
+    margin: 0 auto;
+    border: 5px solid #000; /* border tebal */
+    border-radius: 50%;       /*membuat gambar bulat */
+    width: 50%;
+    max-width: 300px;
+}
+
+/* Daftar Hobi */
+ul {
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+}
+
+/* Gunakan selector berbeda */
+.class-hijau {
+    color: green;
+}
+
+#utama {
+    color: darked;
+}
+
+p a{
+    color: #d61818ff;
+}
+
+/* Pseudo-class untuk link */
+a:hover {
+    color: orange;
+}
+
